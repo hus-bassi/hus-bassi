@@ -17,7 +17,7 @@
     </linearGradient>
   </defs>
 
-  <!-- Base Card -->
+  <!-- Base Outer Card -->
   <rect x="4" y="4" width="932" height="362" rx="16" fill="url(#skBg)" stroke="url(#goldGrad)" stroke-width="1.2"/>
 
   <!-- Corner Reticles -->
@@ -34,68 +34,76 @@
     <text x="198" y="18" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700">Core Competencies &amp; Production Stack</text>
   </g>
 
-  <!-- 4 Spacious Quadrants (Height 130px each) -->
+  <!-- 4 Spacious Quadrants - Completely Removed Cramped Inner Boxes -->
   <!-- Quad 1: Data Analytics & Relational Databases -->
   <g transform="translate(32, 68)">
     <rect x="0" y="0" width="428" height="130" rx="12" fill="url(#boxBg)" stroke="#c5a059" stroke-width="0.9" stroke-opacity="0.45"/>
-    <text x="20" y="30" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">📊 Data Analytics &amp; Relational Databases</text>
+    <text x="22" y="30" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">📊 Data Analytics &amp; Relational Databases</text>
     
-    <g transform="translate(20, 46)">
-      <rect x="0" y="0" width="175" height="32" rx="6" fill="#05141c" stroke="#38bdf8" stroke-width="0.9"/>
-      <text x="87" y="20.5" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">SQL (Postgres / MS SQL)</text>
+    <text x="22" y="60" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#38bdf8" font-weight="700">✦ SQL:</tspan> PostgreSQL • MS SQL Server • Complex Queries &amp; Joins
+    </text>
 
-      <rect x="185" y="0" width="165" height="32" rx="6" fill="#05141c" stroke="#dfc790" stroke-width="0.9"/>
-      <text x="267" y="20.5" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Python (Pandas / NumPy)</text>
-    </g>
-    
-    <text x="20" y="106" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">DataCamp Track • Advanced Spreadsheets • Complex Joins • ETL</text>
+    <text x="22" y="85" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#dfc790" font-weight="700">✦ Python:</tspan> NumPy • Pandas • Data Cleaning &amp; Automation
+    </text>
+
+    <text x="22" y="110" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+      <tspan fill="#38bdf8" font-weight="600">✦ Analytics:</tspan> Advanced Spreadsheets • DataCamp Associate Track
+    </text>
   </g>
 
   <!-- Quad 2: Full-Stack Systems Engineering -->
   <g transform="translate(480, 68)">
     <rect x="0" y="0" width="428" height="130" rx="12" fill="url(#boxBg)" stroke="#38bdf8" stroke-width="0.9" stroke-opacity="0.4"/>
-    <text x="20" y="30" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">⚡ Full-Stack Systems Engineering</text>
+    <text x="22" y="30" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">⚡ Full-Stack Systems Engineering</text>
     
-    <g transform="translate(20, 46)">
-      <rect x="0" y="0" width="175" height="32" rx="6" fill="#05141c" stroke="#dfc790" stroke-width="0.9"/>
-      <text x="87" y="20.5" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Next.js 15 (App Router)</text>
+    <text x="22" y="60" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#dfc790" font-weight="700">✦ Next.js 15:</tspan> App Router • Server Actions • High-Conversion UX
+    </text>
 
-      <rect x="185" y="0" width="165" height="32" rx="6" fill="#05141c" stroke="#38bdf8" stroke-width="0.9"/>
-      <text x="267" y="20.5" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">TypeScript &amp; Node.js</text>
-    </g>
-    
-    <text x="20" y="106" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">Tailwind CSS • REST APIs • Server Actions • GA4 &amp; Meta CAPI</text>
+    <text x="22" y="85" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#38bdf8" font-weight="700">✦ TypeScript &amp; Node.js:</tspan> Modern ES2024 • RESTful APIs &amp; Auth
+    </text>
+
+    <text x="22" y="110" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+      <tspan fill="#dfc790" font-weight="600">✦ Production UI:</tspan> Tailwind CSS • Google Analytics 4 &amp; Meta CAPI
+    </text>
   </g>
 
   <!-- Quad 3: Applied Science & Astroinformatics -->
   <g transform="translate(32, 212)">
     <rect x="0" y="0" width="428" height="130" rx="12" fill="url(#boxBg)" stroke="#38bdf8" stroke-width="0.9" stroke-opacity="0.4"/>
-    <text x="20" y="30" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">🔭 Applied Science &amp; Astroinformatics</text>
+    <text x="22" y="30" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">🔭 Applied Science &amp; Astroinformatics</text>
     
-    <g transform="translate(20, 46)">
-      <rect x="0" y="0" width="185" height="32" rx="6" fill="#05141c" stroke="#38bdf8" stroke-width="0.9"/>
-      <text x="92" y="20.5" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Astroinformatics Pipelines</text>
+    <text x="22" y="60" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#38bdf8" font-weight="700">✦ Astroinformatics:</tspan> FITS Processing • Telescope Surveys • Photometry
+    </text>
 
-      <rect x="195" y="0" width="165" height="32" rx="6" fill="#05141c" stroke="#dfc790" stroke-width="0.9"/>
-      <text x="277" y="20.5" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">ML Recommendation</text>
-    </g>
-    
-    <text x="20" y="106" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">FITS Telescope Processing • A/B Testing • Algorithmic Modeling</text>
+    <text x="22" y="85" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#dfc790" font-weight="700">✦ Machine Learning:</tspan> Recommendation Engines • Deep Learning
+    </text>
+
+    <text x="22" y="110" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+      <tspan fill="#38bdf8" font-weight="600">✦ Scientific Methods:</tspan> A/B Testing • Numerical &amp; Relational Schemas
+    </text>
   </g>
 
   <!-- Quad 4: Cloud, Tooling & Infrastructure -->
   <g transform="translate(480, 212)">
     <rect x="0" y="0" width="428" height="130" rx="12" fill="url(#boxBg)" stroke="#c5a059" stroke-width="0.9" stroke-opacity="0.45"/>
-    <text x="20" y="30" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">☁️ Cloud, Tooling &amp; Infrastructure</text>
+    <text x="22" y="30" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700">☁️ Cloud, Tooling &amp; Infrastructure</text>
     
-    <g transform="translate(20, 46)">
-      <rect x="0" y="0" width="175" height="32" rx="6" fill="#05141c" stroke="#dfc790" stroke-width="0.9"/>
-      <text x="87" y="20.5" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Git &amp; GitHub Actions</text>
+    <text x="22" y="60" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#dfc790" font-weight="700">✦ Version Control:</tspan> Git &amp; GitHub Semantic Branching &amp; Actions
+    </text>
 
-      <rect x="185" y="0" width="165" height="32" rx="6" fill="#05141c" stroke="#38bdf8" stroke-width="0.9"/>
-      <text x="267" y="20.5" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="600" text-anchor="middle">Vercel Serverless</text>
-    </g>
-    
-    <text x="20" y="106" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">PowerShell • Bash • Docker Basics • Production Telemetry</text>
+    <text x="22" y="85" fill="#f8fafc" font-family="system-ui, -apple-system, sans-serif" font-size="13.5" font-weight="400">
+      <tspan fill="#38bdf8" font-weight="700">✦ Serverless Cloud:</tspan> Vercel Edge Functions • Production DNS
+    </text>
+
+    <text x="22" y="110" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="12.5" font-weight="400">
+      <tspan fill="#dfc790" font-weight="600">✦ Environments:</tspan> PowerShell • Bash • Linux CLI • Docker Basics
+    </text>
   </g>
 </svg>
