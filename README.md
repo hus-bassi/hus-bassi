@@ -26,22 +26,22 @@
 <br/>
 
 <!-- ✦ 01 // MISSION & NORTH STAR CARD -->
-<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/about-card.svg" alt="✦ 01 // Mission &amp; Vision" width="100%" />
+<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/about-card.svg" alt="✦ Mission &amp; Vision" width="100%" />
 
 <br/><br/>
 
 <!-- ✦ 02 // TECHNICAL ARSENAL CARD -->
-<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/skills-card.svg" alt="✦ 02 // Technical Arsenal" width="100%" />
+<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/skills-card.svg" alt="✦ Technical Arsenal" width="100%" />
 
 <br/><br/>
 
 <!-- ✦ 03 // INSTITUTIONAL ACCREDITATIONS CARD -->
-<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/certs-card.svg" alt="✦ 03 // Verified Credentials" width="100%" />
+<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/certs-card.svg" alt="✦ Verified Accreditations" width="100%" />
 
 <br/><br/>
 
-<!-- ✦ 04 // FEATURED PRODUCTION PROJECTS -->
-<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/projects-header.svg" alt="✦ 04 // Featured Projects Header" width="100%" />
+<!-- ✦ 04 // FEATURED PRODUCTION PLATFORMS -->
+<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/projects-header.svg" alt="✦ Featured Projects Header" width="100%" />
 
 <br/>
 
@@ -55,13 +55,6 @@
 <!-- Project 2: Cosmic Luxury Portfolio -->
 <a href="https://hus-bassi.vercel.app/">
   <img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/project-portfolio.svg" alt="Cosmic Luxury Portfolio" width="100%" />
-</a>
-
-<br/>
-
-<!-- Project 3: OpenDoors Hero Simulator -->
-<a href="https://hus-bassi.vercel.app/">
-  <img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/project-opendoors.svg" alt="OpenDoors Business Hero Simulator" width="100%" />
 </a>
 
 <br/><br/>
@@ -104,14 +97,14 @@
 * **Arabic:** حسين محمد مصطفى أحمد البسيوني · **Russian:** Хуссейн Мохамед Мостафа Ахмед Эльбассиуни
 * **Degree Track:** Bachelor of Applied Informatics (`09.03.03 Прикладная информатика`), Russian Government Scholarship.
 * **North Star:** Astroinformatics & Astronomy Data Science (NASA / International Astronomical Observatories).
-* **#RoadTo200K:** Self-funding immigration and CUDA hardware via freelance data analytics and systems engineering.
+* **#RoadTo200K:** Self-funding immigration and CUDA workstation hardware via freelance data analytics and systems engineering.
 * **Athlete Creed:** Competitive Volleyball Outside Hitter (188 cm, Jersey #21). Motto: *Per Aspera Ad Astra*.
 
 ### Technical Stack & Arsenal
 * **Data Analytics:** SQL (PostgreSQL, SQL Server), Python (NumPy, Pandas), Spreadsheets (Advanced).
-* **Full-Stack:** Next.js 15, TypeScript, Node.js, Express, Tailwind CSS, REST APIs.
-* **Applied Science:** Astroinformatics pipelines, recommendation algorithms, A/B testing, relational schemas.
-* **Tooling:** Git, GitHub, Vercel Serverless, Google Analytics 4, Meta CAPI, Bash, PowerShell.
+* **Full-Stack:** Next.js 15 (App Router), TypeScript, Node.js, Express, Tailwind CSS, REST APIs.
+* **Applied Science:** Astroinformatics pipelines, ML recommendation algorithms, A/B testing, relational schemas.
+* **Tooling:** Git, GitHub Actions, Vercel Serverless, Google Analytics 4, Meta CAPI, Bash, PowerShell.
 
 ### 11 Verified Accreditations
 1. **DataCamp:** Introduction to SQL (Credential `#50,679,615` · Hash: `91bd837acdfb16ef28a3445499ee36ff1057e3ff`)
@@ -127,9 +120,8 @@
 11. **UN Agora / UNICEF:** PSEA Human Rights (Code: `1113483437HE`)
 * **Official Recommendation Letters:** Supported by stamped letters from NUST MISIS, NSUEM, USPTU, VSUET, and BSU.
 
-### Production Projects
-* **[Souq Elmajde Medical Platform](https://elmajde.com/):** Production Next.js 15 e-commerce marketplace for medical supplies.
-* **[Cosmic Luxury Portfolio](https://hus-bassi.vercel.app/):** Trilingual personal portfolio with live telemetry and pure CSS glassmorphism.
-* **[OpenDoors Business Hero Simulator](https://hus-bassi.vercel.app/):** Interactive 316-question exam prep simulator for Russian scholarship applicants.
+### Flagship Production Platforms
+* **[Souq Elmajde Medical Platform](https://elmajde.com/):** Live production Next.js 15 e-commerce marketplace for medical equipment serving 81+ products.
+* **[Cosmic Luxury Trilingual Portfolio](https://hus-bassi.vercel.app/):** Live trilingual personal portfolio with live telemetry, pure CSS glassmorphism, and responsive celestial UI.
 
 </details>
