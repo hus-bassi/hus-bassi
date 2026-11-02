@@ -2,7 +2,7 @@
 
 <!-- Hero Banner (Custom Animated SVG - Cosmic Luxury Edition) -->
 <a href="https://hus-bassi.vercel.app">
-  <img src="assets/hero.svg" alt="Hussein ElBassiouni — Data Analyst &amp; Software Engineer" width="100%" />
+  <img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/hero.svg" alt="Hussein ElBassiouni — Data Analyst &amp; Software Engineer" width="100%" />
 </a>
 
 <br/>
@@ -106,6 +106,6 @@ All credentials are 100% verified with official issuer IDs, digital hashes, and 
 <br/>
 
 <!-- Animated Footer Banner -->
-<img src="assets/footer.svg" alt="Hussein ElBassiouni Footer" width="100%" />
+<img src="https://raw.githubusercontent.com/hus-bassi/hus-bassi/main/assets/footer.svg" alt="Hussein ElBassiouni Footer" width="100%" />
 
 </div>
