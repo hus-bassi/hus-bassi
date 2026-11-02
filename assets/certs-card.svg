@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 370" width="100%" height="auto">
+  <defs>
+    <linearGradient id="crBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030a0e"/>
+      <stop offset="50%" stop-color="#05141c"/>
+      <stop offset="100%" stop-color="#081e28"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8c734b"/>
+      <stop offset="35%" stop-color="#dfc790"/>
+      <stop offset="70%" stop-color="#f5eedc"/>
+      <stop offset="100%" stop-color="#c5a059"/>
+    </linearGradient>
+    <linearGradient id="blockBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#081e28" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#05141c" stop-opacity="0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Base Card -->
+  <rect x="4" y="4" width="932" height="362" rx="16" fill="url(#crBg)" stroke="url(#goldGrad)" stroke-width="1.2"/>
+  <rect x="8" y="8" width="924" height="354" rx="12" fill="none" stroke="#38bdf8" stroke-width="0.6" stroke-opacity="0.18" stroke-dasharray="6 6"/>
+
+  <!-- Corner Reticles -->
+  <path d="M 14 26 L 14 14 L 26 14" stroke="#c5a059" stroke-width="1.5" fill="none"/>
+  <path d="M 926 26 L 926 14 L 914 14" stroke="#c5a059" stroke-width="1.5" fill="none"/>
+  <path d="M 14 344 L 14 356 L 26 356" stroke="#c5a059" stroke-width="1.5" fill="none"/>
+  <path d="M 926 344 L 926 356 L 914 356" stroke="#c5a059" stroke-width="1.5" fill="none"/>
+
+  <!-- Header Badge & Title -->
+  <g transform="translate(35, 24)">
+    <rect x="0" y="0" width="230" height="24" rx="12" fill="#05141c" stroke="#c5a059" stroke-width="1"/>
+    <text x="115" y="16" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="10.5" font-weight="700" letter-spacing="1.5" text-anchor="middle">✦ 03 // VERIFIED CREDENTIALS</text>
+    
+    <text x="250" y="17" fill="#f5f8f7" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="700" letter-spacing="0.5">11 Institutional Accreditations &amp; Ministerial Honors <tspan fill="#38bdf8" font-size="13" font-weight="600">· 100% Verifiable</tspan></text>
+  </g>
+
+  <!-- 4 Blocks Grid -->
+  <!-- Block 1: DataCamp -->
+  <g transform="translate(35, 68)">
+    <rect x="0" y="0" width="425" height="110" rx="10" fill="url(#blockBg)" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="12" width="135" height="18" rx="9" fill="#030a0e" stroke="#38bdf8" stroke-width="0.6"/>
+    <text x="81" y="24" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">DATACAMP VERIFIED</text>
+    
+    <text x="14" y="52" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">✦ Introduction to SQL <tspan fill="#94a3b8" font-size="10.5" font-weight="400">(ID: #50,679,615 · Oct 2026)</tspan></text>
+    <text x="14" y="70" fill="#64748b" font-family="monospace" font-size="9.5">Hash: 91bd837acdfb16ef28a3445499ee36ff1057e3ff</text>
+
+    <text x="14" y="93" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">✦ Spreadsheet Fundamentals <tspan fill="#94a3b8" font-size="10.5" font-weight="400">(15-Hour Skill Track)</tspan></text>
+  </g>
+
+  <!-- Block 2: HackerRank -->
+  <g transform="translate(480, 68)">
+    <rect x="0" y="0" width="425" height="110" rx="10" fill="url(#blockBg)" stroke="#c5a059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="12" width="145" height="18" rx="9" fill="#030a0e" stroke="#c5a059" stroke-width="0.6"/>
+    <text x="86" y="24" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">HACKERRANK CERTIFIED</text>
+
+    <text x="14" y="52" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">✦ Python (Basic) <tspan fill="#64748b" font-size="10" font-family="monospace">(ID: 5250E60817B2)</tspan></text>
+    <text x="14" y="73" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">✦ SQL (Basic) <tspan fill="#64748b" font-size="10" font-family="monospace">(ID: 30601B8D3259)</tspan></text>
+    <text x="14" y="94" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="700">✦ Node.js (Basic) <tspan fill="#64748b" font-size="10" font-family="monospace">(ID: E43713D1B35B)</tspan></text>
+  </g>
+
+  <!-- Block 3: Russian Ministerial Honors -->
+  <g transform="translate(35, 190)">
+    <rect x="0" y="0" width="425" height="110" rx="10" fill="url(#blockBg)" stroke="#c5a059" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="12" width="185" height="18" rx="9" fill="#030a0e" stroke="#c5a059" stroke-width="0.6"/>
+    <text x="106" y="24" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">RUSSIAN MINISTERIAL HONORS</text>
+
+    <text x="14" y="52" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">✦ Data Analysis &amp; Algorithms <tspan fill="#94a3b8" font-size="10" font-weight="400">(Avito &amp; Sberbank · Honors)</tspan></text>
+    <text x="14" y="73" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">✦ Autonomous AI Agents <tspan fill="#94a3b8" font-size="10" font-weight="400">(Ministry of Digital Dev &amp; ANO CE)</tspan></text>
+    <text x="14" y="94" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">✦ AI &amp; 3D Technologies <tspan fill="#94a3b8" font-size="10" font-weight="400">(Sberbank · Honors)</tspan></text>
+  </g>
+
+  <!-- Block 4: Central Bank & United Nations -->
+  <g transform="translate(480, 190)">
+    <rect x="0" y="0" width="425" height="110" rx="10" fill="url(#blockBg)" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.4"/>
+    <rect x="14" y="12" width="165" height="18" rx="9" fill="#030a0e" stroke="#38bdf8" stroke-width="0.6"/>
+    <text x="96" y="24" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="9" font-weight="700" letter-spacing="1" text-anchor="middle">BANK OF RUSSIA &amp; UN AGORA</text>
+
+    <text x="14" y="52" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">✦ Central Bank of Russia: <tspan fill="#94a3b8" font-size="10.5" font-weight="400">Advanced Financial Exam</tspan></text>
+    <text x="14" y="73" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">✦ Central Bank of Russia: <tspan fill="#94a3b8" font-size="10.5" font-weight="400">Basic Level Financial Exam</tspan></text>
+    <text x="14" y="94" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700">✦ UNICEF / UN Agora: <tspan fill="#cbd5e1" font-size="10.5" font-weight="400">PSEA Human Rights (1113483437HE)</tspan></text>
+  </g>
+
+  <!-- Bottom Ribbon: 5 Russian University Recommendation Letters -->
+  <g transform="translate(35, 312)">
+    <rect x="0" y="0" width="870" height="38" rx="8" fill="#05141c" stroke="#c5a059" stroke-width="0.8"/>
+    <text x="20" y="24" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="700">📜 5 Official Russian Recommendation Letters (Quota 09.03.03):</text>
+    <text x="390" y="24" fill="#cbd5e1" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500">NUST MISIS (Moscow) • NSUEM (Novosibirsk) • USPTU (Ufa) • VSUET • BSU</text>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 150" width="100%" height="auto">
+  <defs>
+    <linearGradient id="pjBg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030a0e"/>
+      <stop offset="50%" stop-color="#05141c"/>
+      <stop offset="100%" stop-color="#081e28"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8c734b"/>
+      <stop offset="35%" stop-color="#dfc790"/>
+      <stop offset="70%" stop-color="#f5eedc"/>
+      <stop offset="100%" stop-color="#c5a059"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="4" y="4" width="932" height="142" rx="14" fill="url(#pjBg3)" stroke="url(#goldGrad)" stroke-width="1.2"/>
+  <rect x="8" y="8" width="924" height="134" rx="10" fill="none" stroke="#c5a059" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Left Icon/Badge -->
+  <g transform="translate(30, 24)">
+    <rect x="0" y="0" width="185" height="22" rx="11" fill="#030a0e" stroke="#c5a059" stroke-width="0.8"/>
+    <text x="92" y="15" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="9.5" font-weight="700" letter-spacing="1" text-anchor="middle">🎓 OLYMPIAD SIMULATOR</text>
+
+    <text x="0" y="50" fill="#f5f8f7" font-family="system-ui, -apple-system, sans-serif" font-size="17" font-weight="700">OpenDoors Business Hero Interactive Simulator</text>
+    
+    <text x="0" y="74" fill="#38bdf8" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600">Educational Software • JavaScript Interactive Engine • Russian Scholarship Stage 2 Prep</text>
+
+    <text x="0" y="98" fill="#94a3b8" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="400">Complete training simulator containing 316 comprehensive questions and mock examination telemetry for the Open Doors Olympiad.</text>
+  </g>
+
+  <!-- Right Action Pill -->
+  <g transform="translate(760, 54)">
+    <rect x="0" y="0" width="145" height="38" rx="19" fill="#05141c" stroke="#dfc790" stroke-width="1.2"/>
+    <text x="72" y="24" fill="#dfc790" font-family="system-ui, -apple-system, sans-serif" font-size="11.5" font-weight="700" letter-spacing="1" text-anchor="middle">LAUNCH TOOL ↗</text>
+  </g>
+</svg>
